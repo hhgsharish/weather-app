@@ -17,5 +17,7 @@ A simple web app to check current weather and 5-day forecasts using OpenWeatherM
 
 Run with Docker:
 docker-compose up --build
+
+
 Access the app:
 Open http://<EC2-publicip>:5000 in your browser.

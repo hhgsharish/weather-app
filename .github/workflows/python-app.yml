@@ -7,7 +7,7 @@ on:
   pull_request:
     branches:
       - feature-1  # Runs on PRs to feature-1 branch
-
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest

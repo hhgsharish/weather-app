@@ -8,6 +8,8 @@ on:
     branches:
       - feature-1  # Runs on PRs to feature-1 branch
   workflow_dispatch:
+    branches:
+      - feature-1  # Runs on PRs to feature-1 branch
 jobs:
   build:
     runs-on: ubuntu-latest
